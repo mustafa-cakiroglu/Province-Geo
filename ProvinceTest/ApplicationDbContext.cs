@@ -19,7 +19,7 @@ namespace ProvinceTest
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql("User Id=postgres;Host=212.68.40.40;Port=5432;Password=123456;Database=VoeZone;NoResetOnClose=true;");
+            optionsBuilder.UseNpgsql("User Id=postgres;Host=***;Port=5432;Password=***;Database=VoeZone;NoResetOnClose=true;");
 
         }
     }
